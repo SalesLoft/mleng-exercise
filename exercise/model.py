@@ -62,8 +62,3 @@ class SeniorityModel:
         self.model.fit(vectorized_data, job_seniorities)
         
         return
-    
-    def save(self):
-        """Saves the model ...
-        """
-        return
